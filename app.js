@@ -122,7 +122,7 @@ function waktu() {
       kata = [
         "Tidur woee tidurr",
         "Jangan begadang mulu zzz",
-        "Jangan lupa juga minum vitaminnya"
+        "Jangan lupa juga bernafas"
       ];
     } else if (jam > 2 && jam <= 6) {
       kata = [
@@ -137,22 +137,22 @@ function waktu() {
         "Semangat yuk semangat"
       ];
     }
-    h2.innerHTML = "Pagi Ena";
+    h2.innerHTML = "Pagi Arum";
   } else if (jam > 10 && jam <= 13) {
     if (jam <= 11) {
       kata = [
         "Tidur siang dulu kuyy",
         "Makan juga boleh :)",
-        "Atau pura pura sibut :v"
+        "Atau pura pura sibuk :v"
       ];
     } else {
       kata = [
         "Inget makan",
         "Inget minum jugaa",
-        "Jangn lupa inget tugas juga :')"
+        "Jangan lupa inget tugas juga :')"
       ];
     }
-    h2.innerHTML = "Siang Ena";
+    h2.innerHTML = "Siang Arum";
   } else if (jam > 13 && jam <= 19) {
     if (jam <= 16) {
       kata = [
@@ -163,26 +163,26 @@ function waktu() {
     } else {
       kata = [
         "Senja yang indah...",
-        "Seindah senyum Ena eaa",
+        "Seindah senyum Arum eaa",
         "Udah udah, mending mandi"
       ];
     }
-    h2.innerHTML = "Sore Ena";
+    h2.innerHTML = "Sore Arum";
   } else {
     if (jam <= 20) {
       kata = [
         "Tak kerasa matahari dah tengelam wkwk",
         "Makan dulu makan",
-        "Semangat nuganya kaka"
+        "Semangat nugasnya kaka"
       ];
     } else {
       kata = [
         "Pasti lagi buat tugas yaa wkwkw",
         "Jangan begadang yahh",
-        "Jangan lupa minum vitaminnya.."
+        "Jangan lupa tetep hidup.."
       ];
     }
-    h2.innerHTML = "Malem Ena";
+    h2.innerHTML = "Malem Arum";
   }
   return kata;
 }
