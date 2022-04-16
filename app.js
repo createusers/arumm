@@ -120,30 +120,30 @@ function waktu() {
   if (jam <= 10) {
     if (jam <= 2) {
       kata = [
-        "Tidur woee tidurr",
+        "Tidur sayangg",
         "Jangan begadang mulu zzz",
-        "Jangan lupa juga bernafas"
+        "Inget minum banyakin"
       ];
     } else if (jam > 2 && jam <= 6) {
       kata = [
         "Pagi yang sangat indah :)",
-        "Kuyy tidur lagi...",
-        "Atau bangun boleh juga :v"
+        "Tumben bangun pagi gini",
+        "Mau tidur lagi? :v"
       ];
     } else {
       kata = [
-        "Selamat pagi Neng",
-        "Pagi yang indah untuk beraktivitas :)",
+        "Selamat pagi neng",
+        "Jangan lupa minum obatnya",
         "Semangat yuk semangat"
       ];
     }
-    h2.innerHTML = "Pagi Arum";
+    h2.innerHTML = "Pagi Sayang";
   } else if (jam > 10 && jam <= 13) {
     if (jam <= 11) {
       kata = [
-        "Tidur siang dulu kuyy",
-        "Makan juga boleh :)",
-        "Atau pura pura sibuk :v"
+        "Tidur siang dulu yang",
+        "Makan juga inget :)",
+        "Semangat kuliahnyaa🥰"
       ];
     } else {
       kata = [
@@ -152,37 +152,37 @@ function waktu() {
         "Jangan lupa inget tugas juga :')"
       ];
     }
-    h2.innerHTML = "Siang Arum";
+    h2.innerHTML = "Siang Sayang";
   } else if (jam > 13 && jam <= 19) {
     if (jam <= 16) {
       kata = [
-        "Hari semakin menipis wkwk",
-        "Nugas dulu nugas",
+        "Udah makan siang?",
+        "Inget makan yang",
         "Mandi juga jangan lupa..."
       ];
     } else {
       kata = [
-        "Senja yang indah...",
-        "Seindah senyum Arum eaa",
-        "Udah udah, mending mandi"
+        "Mandi udah?",
+        "Inget mandi yang bersih",
+        "Sembahyang juga jangan lupa"
       ];
     }
-    h2.innerHTML = "Sore Arum";
+    h2.innerHTML = "Sore Ayang";
   } else {
     if (jam <= 20) {
       kata = [
-        "Tak kerasa matahari dah tengelam wkwk",
-        "Makan dulu makan",
-        "Semangat nugasnya kaka"
+        "Gimana hari ini?",
+        "Udah makan?",
+        "Jangan sampe lupa makan",
       ];
     } else {
       kata = [
-        "Pasti lagi buat tugas yaa wkwkw",
+        "Ada cerita apa hari ini?",
         "Jangan begadang yahh",
-        "Jangan lupa tetep hidup.."
+        "Aku sayang kamu❤️"
       ];
     }
-    h2.innerHTML = "Malem Arum";
+    h2.innerHTML = "Malem Ayang";
   }
   return kata;
 }
